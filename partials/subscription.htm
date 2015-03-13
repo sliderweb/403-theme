@@ -1,0 +1,23 @@
+==
+<!-- Pre-Submission: This is what's displayed before the subscription form has been submitted. -->
+                <div id="pre-subscribe">
+                    <div class="row" id="copy">
+                        <h1>Что-то <strong>действительно прекрасное</strong> появится здесь <strong>очень скоро</strong>.</h1>
+                        <p>На данный момент ведутся активные работы по разработке нового проекта</p>
+                    </div>
+
+                    <div class="row" id="subscribe">
+                        <!-- Subscription Form: Configure your MailChimp settings within settings.php. -->
+                        <form class="row" id="mailchimp" action="{{ 'assets/helpers/post-subscribe.php' |theme }}" method="post">
+                        	<input type="email" name="email" id="email" placeholder="Ваша электропочта">
+                        	<button type="submit" name="subscribe" class="button icon submit"></button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Post Subscription: This is what’s displayed after the subscription form has been submitted.  -->
+                <div id="post-subscribe">
+                    <div class="row" id="copy">
+                        <h1>Thanks for <strong>signing up</strong>. Check your email to <strong>confirm</strong> your subscription.</h1>
+                    </div>
+                </div>
