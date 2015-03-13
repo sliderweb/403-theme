@@ -1,4 +1,10 @@
 name: 403 Theme
-description: Maintains mode OctoberCMS theme. For Under Construction, 403 or Coming Soon Pages 
+description: Maintaince mode OctoberCMS theme. For Under Construction, 403 or Coming Soon pages 
 author: SLIDER.WEB studio
 homepage: 'http://sliderweb.ru'
+form:
+    fields:
+        site_name:
+            label: Site name
+            comment: The website name as it should appear on the front-end
+            default: Coming Soon...

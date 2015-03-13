@@ -1,14 +1,14 @@
 {
-    "name": "sliderweb/403theme-theme",
+    "name": "sliderweb/403-theme",
     "type": "october-theme",
-    "description": "Maintains mode OctoberCMS theme for Under Construction 403 page",
-    "keywords": ["october", "cms", "maintains mode", "theme"],
+    "description": "Maintaince mode OctoberCMS template for under-construction or coming-soon pages",
+    "keywords": ["october", "cms", "maintaince mode", "theme", "template"],
     "license": "MIT",
     "authors": [
         {
             "name": "Vladimir Pilipchuck",
             "email": "slider@sliderweb.ru",
-            "role": "Root"
+            "role": "Designer"
         }
         
     ],
