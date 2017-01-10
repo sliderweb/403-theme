@@ -1,5 +1,5 @@
 # 403-theme
-October CMS Coming Soon template
+October CMS Coming Soon template!
 
 Just clone to themes folder and activate in backend.
 
